@@ -1,0 +1,24 @@
+= Install
+
+....
+$ sudo apt-get install fortune
+$ git clone https://github.com/aholowko/dev-oblique-strategies.git
+$ cd dev-oblique-strategies
+$ ./install.sh
+....
+
+
+= Usage
+
+....
+$ fortune dev-oblique-strategies | cowsay
+
+< 'Flip the problem around.' >
+ ----------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+....

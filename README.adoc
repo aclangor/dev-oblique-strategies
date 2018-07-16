@@ -1,7 +1,11 @@
-= Install
+= About
+
+Fortune (https://en.wikipedia.org/wiki/Fortune_(Unix)) database with sentences from "Oblique Strategies: Prompts for Programmers" by Kevin Lawler, http://kevinlawler.com/prompts
+
+= Installation
 
 ....
-$ sudo apt-get install fortune
+$ sudo apt-get install fortune cowsay
 $ git clone https://github.com/aholowko/dev-oblique-strategies.git
 $ cd dev-oblique-strategies
 $ ./install.sh
@@ -10,6 +14,7 @@ $ ./install.sh
 
 = Usage
 
+When you stuck cow will say you what to do...
 ....
 $ fortune dev-oblique-strategies | cowsay
 
